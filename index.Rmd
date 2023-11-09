@@ -22,7 +22,7 @@ events %>%
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',
             buttons = c('colvis', 'csv', 'pdf'),pageLength = 50,
-            order = list(list(5, 'desc')))
+            order = list(list(4, 'desc')))
   )
 
 ```
