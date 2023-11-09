@@ -26,6 +26,6 @@ with open("queue.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerow(['rdm_id','request','title','tag'])
     for c in completed:
-        writer.writerow([c])
+        writer.writerow(c)
 
 

@@ -1,19 +1,19 @@
 rdm_id,request,title,tag
-"['ppxj8-b7936', '849cac17-75b1-40ca-a5c8-7d0983be7d37', 'Erratum: ""Frequency response of cantilever beams immersed in viscous fluids with applications to the atomic force microscope: Arbitrary mode order"" [J. Appl. Phys. 101, 044908 (2007)]', 'review']"
-"['fryzs-xka09', 'b807de03-1c81-4055-8f56-c1ba6d41ca39', 'Erratum: ""Frequency response of cantilever beams immersed in viscous fluids near a solid surface with applications to the atomic force microscope [J. Appl. Phys. 98, 114913 (2005)]', 'review']"
-"['ypgfc-x9g79', '61923cb9-1295-4f54-afe9-5128924db9f8', 'Resonator Guitar Synthesis', 'review']"
-"['eg12f-ry166', '59db96fb-7881-4b1b-800d-bd90609d40bf', 'Publisher\'s Note: ""Reducing control noise in gravitational wave detectors with interferometric local damping of suspended optics"" [Rev. Sci. Instrum. 94, 054501 (2023)]', 'review']"
-"['2j9bt-mz022', '6a82b1b9-40e1-48f1-ab64-206753287719', 'Sound of the Wood-body Resonator Guitar', 'review']"
-"['css16-kzf39', 'f4bb78c4-58df-4f28-a459-b03a15a852de', 'A search for decays of the Higgs boson to invisible particles in events with a top-antitop quark pair or a vector boson in proton-proton collisions at $$\\sqrt{s} = 13\\,\\text {Te}\\hspace{-.08em}\\text {V} $$', 'review']"
-"['ckw8e-0a567', '08898336-c0ac-4437-b25d-71635549ff36', 'Measurement of the top quark mass using a profile likelihood approach with the lepton\xa0+\xa0jets final states in proton–proton collisions at $$\\sqrt{s}=13\\,\\text {Te}\\hspace{-.08em}\\text {V} $$', 'review']"
-"['158yw-msf15', '3289a461-a484-4699-bffc-c2786287a3ea', 'Relation between increasing attachment security and weight gain: a clinical study of adolescents and their parents at an outpatient ward', 'review']"
-"['d8wtb-83094', '3b20f433-2338-4bab-9c31-b0bf6bb4bac5', 'Future workspace needs flexibility and diversity: A machine learning-driven behavioural analysis of co-working space', 'review']"
-"['2rkv9-7p767', 'cbac6fe5-ec71-4c81-be7f-256f10859206', 'Localized Multifocal Retroperitoneal Ganglioneuroma with an Infiltrative Appearance on Imaging: A Case Report', 'review']"
-"['n452x-qnv12', '0652363c-4aa9-4268-83f8-88b507d299ec', 'High-fidelity parallel entangling gates on a neutral-atom quantum computer', 'trying']"
-"['n452x-qnv12', '0652363c-4aa9-4268-83f8-88b507d299ec', 'High-fidelity parallel entangling gates on a neutral-atom quantum computer', 'test']"
-"['n452x-qnv12', '0652363c-4aa9-4268-83f8-88b507d299ec', 'High-fidelity parallel entangling gates on a neutral-atom quantum computer', 'review']"
-"['dseja-8b171', '62919890-42ff-46e4-95da-e29d38693bc0', 'Pervasive, conserved secondary structure in highly charged protein regions', 'test']"
-"['dseja-8b171', '62919890-42ff-46e4-95da-e29d38693bc0', 'Pervasive, conserved secondary structure in highly charged protein regions', 'review']"
-"['m9tdj-kbe77', '0ab1d1f0-0baf-4172-8607-52707667f76b', 'The proton channel OTOP1 is a sensor for the taste of ammonium chloride', 'review']"
-"['7j7m9-fec46', 'd10aae23-4316-492e-a6ae-25bade47f632', 'Index cases first identified by nasal-swab rapid COVID-19 tests had more transmission to household contacts than cases identified by other test types', 'review']"
-"['wkn14-p7273', 'e6231c69-a3ab-4bbc-bc76-4e45e2878a35', 'Genetic Site-Aware Three-Dimensional Layout Algorithm for Variation Graphs', 'review']"
+ppxj8-b7936,849cac17-75b1-40ca-a5c8-7d0983be7d37,"Erratum: ""Frequency response of cantilever beams immersed in viscous fluids with applications to the atomic force microscope: Arbitrary mode order"" [J. Appl. Phys. 101, 044908 (2007)]",review
+fryzs-xka09,b807de03-1c81-4055-8f56-c1ba6d41ca39,"Erratum: ""Frequency response of cantilever beams immersed in viscous fluids near a solid surface with applications to the atomic force microscope [J. Appl. Phys. 98, 114913 (2005)]",review
+ypgfc-x9g79,61923cb9-1295-4f54-afe9-5128924db9f8,Resonator Guitar Synthesis,review
+eg12f-ry166,59db96fb-7881-4b1b-800d-bd90609d40bf,"Publisher's Note: ""Reducing control noise in gravitational wave detectors with interferometric local damping of suspended optics"" [Rev. Sci. Instrum. 94, 054501 (2023)]",review
+2j9bt-mz022,6a82b1b9-40e1-48f1-ab64-206753287719,Sound of the Wood-body Resonator Guitar,review
+css16-kzf39,f4bb78c4-58df-4f28-a459-b03a15a852de,"A search for decays of the Higgs boson to invisible particles in events with a top-antitop quark pair or a vector boson in proton-proton collisions at $$\sqrt{s} = 13\,\text {Te}\hspace{-.08em}\text {V} $$",review
+ckw8e-0a567,08898336-c0ac-4437-b25d-71635549ff36,"Measurement of the top quark mass using a profile likelihood approach with the lepton + jets final states in proton–proton collisions at $$\sqrt{s}=13\,\text {Te}\hspace{-.08em}\text {V} $$",review
+158yw-msf15,3289a461-a484-4699-bffc-c2786287a3ea,Relation between increasing attachment security and weight gain: a clinical study of adolescents and their parents at an outpatient ward,review
+d8wtb-83094,3b20f433-2338-4bab-9c31-b0bf6bb4bac5,Future workspace needs flexibility and diversity: A machine learning-driven behavioural analysis of co-working space,review
+2rkv9-7p767,cbac6fe5-ec71-4c81-be7f-256f10859206,Localized Multifocal Retroperitoneal Ganglioneuroma with an Infiltrative Appearance on Imaging: A Case Report,review
+n452x-qnv12,0652363c-4aa9-4268-83f8-88b507d299ec,High-fidelity parallel entangling gates on a neutral-atom quantum computer,trying
+n452x-qnv12,0652363c-4aa9-4268-83f8-88b507d299ec,High-fidelity parallel entangling gates on a neutral-atom quantum computer,test
+n452x-qnv12,0652363c-4aa9-4268-83f8-88b507d299ec,High-fidelity parallel entangling gates on a neutral-atom quantum computer,review
+dseja-8b171,62919890-42ff-46e4-95da-e29d38693bc0,"Pervasive, conserved secondary structure in highly charged protein regions",test
+dseja-8b171,62919890-42ff-46e4-95da-e29d38693bc0,"Pervasive, conserved secondary structure in highly charged protein regions",review
+m9tdj-kbe77,0ab1d1f0-0baf-4172-8607-52707667f76b,The proton channel OTOP1 is a sensor for the taste of ammonium chloride,review
+7j7m9-fec46,d10aae23-4316-492e-a6ae-25bade47f632,Index cases first identified by nasal-swab rapid COVID-19 tests had more transmission to household contacts than cases identified by other test types,review
+wkn14-p7273,e6231c69-a3ab-4bbc-bc76-4e45e2878a35,Genetic Site-Aware Three-Dimensional Layout Algorithm for Variation Graphs,review
