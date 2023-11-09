@@ -12,7 +12,7 @@ completed = []
 pending = get_pending_requests(token, community)
 
 for p in pending:
-    rdm_id,title = get_request_id_title(token, p)
+    rdm_id,title,updated = get_request_id_title(token, p)
     comments = get_request_comments(token, p)
     tags = []
     for c in comments:
@@ -20,11 +20,11 @@ for p in pending:
             tags = re.findall(r'@(\w+)', c)
     tags.append('review')
     for tag in tags:
-        completed.append([rdm_id, p, title, tag])
+        completed.append([rdm_id, p, title, updated, tag])
 
 with open("queue.csv", "w") as f:
     writer = csv.writer(f)
-    writer.writerow(['rdm_id','request','title','tag'])
+    writer.writerow(['rdm_id','request','title','updated','tag'])
     for c in completed:
         writer.writerow(c)
 
