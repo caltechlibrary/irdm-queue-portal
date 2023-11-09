@@ -22,10 +22,9 @@ events %>%
             rownames = FALSE, 
             colnames = c("RDM ID", "Link", "Title", "Tag"),
             class = "cell-border stripe", 
-            options= list(pageLength = 50),
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',
-            buttons = c('colvis', 'csv', 'pdf'))
+            buttons = c('colvis', 'csv', 'pdf'),pageLength = 50)
   )
 
 ```
