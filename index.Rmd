@@ -21,8 +21,7 @@ events %>%
             class = "cell-border stripe", 
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',
-            buttons = c('colvis', 'csv', 'pdf'),pageLength = 50,
-            order = list(list(5, 'asc'), list(4, 'desc')))
+            buttons = c('colvis', 'csv', 'pdf'),pageLength = 50)
   )
 
 ```
