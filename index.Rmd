@@ -17,12 +17,12 @@ events <- transform(events, request = paste('<a href=https://authors.library.cal
 events %>%
   datatable(escape = FALSE,
             rownames = FALSE, 
-            colnames = c("RDM ID", "Link", "Title","Updated Date", "Tag"),
+            colnames = c("Tag", "Updated Date","Title", "RDM ID", "Link"),
             class = "cell-border stripe", 
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',
             buttons = c('colvis', 'csv', 'pdf'),pageLength = 50,
-            order = list(list(4, 'desc'),list(3, 'desc')))
+            order = list(list(0, 'desc'),list(1, 'desc')))
   )
 
 ```
