@@ -20,11 +20,11 @@ for p in pending:
             tags = re.findall(r'@(\w+)', c)
     tags.append('review')
     for tag in tags:
-        completed.append([rdm_id, p, title, updated, tag])
+        completed.append([tag,updated,title,rdm_id, p])
 
 with open("queue.csv", "w") as f:
     writer = csv.writer(f)
-    writer.writerow(['rdm_id','request','title','updated','tag'])
+    writer.writerow(['tag','updated','title','rdm_id','request'])
     for c in completed:
         writer.writerow(c)
 
