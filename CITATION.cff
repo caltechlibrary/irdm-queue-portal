@@ -1,17 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: irdm_harvester
+title: irdm-queue-portal
 authors:
   - family-names: Morrell
     given-names: Thomas E
     orcid: https://orcid.org/0000-0001-9266-5146
-abstract: Automatic harvester for adding content to an InvenioRDM repository.
-repository-code: "https://github.com/caltechlibrary/irdm_harvester"
+abstract: Queue View for an InvenioRDM repository.
+repository-code: "https://github.com/caltechlibrary/irdm-queue-portal"
 type: software
 version: 0.0.1
 license-url: "https://data.caltech.edu/license"
 keywords:
-  - metadata
-  - CrossRef
+  - Queue
   - InvenioRDM
 date-released: 2023-11-27
