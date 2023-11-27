@@ -18,7 +18,8 @@ for p in pending:
     for c in comments:
         if '@' in c:
             tags = re.findall(r'@(\w+)', c)
-    tags.append('new')
+    if tags == []:
+        tags.append('new')
     for tag in tags:
         completed.append([tag,updated,title,rdm_id, p])
 
