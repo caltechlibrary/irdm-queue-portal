@@ -1,4 +1,4 @@
-# InvenioRDM Queue Portal
+# InvenioRDM Queue View
 
 This repository consists the automation to build a table of content currently
 in an InvenioRDM community queue. It extracts `@tags` and presents them in a
