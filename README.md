@@ -5,7 +5,7 @@ in an InvenioRDM community queue. It extracts `@tags` and presents them in a
 browsable interface. It runs entirely using GitHub actions and GitHub pages.
 
 [![License](https://img.shields.io/badge/License-BSD--like-lightgrey)](https://choosealicense.com/licenses/bsd-3-clause)
-[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/template.svg?color=b44e88)](https://github.com/caltechlibrary/template/releases)
+[![Latest release](https://img.shields.io/github/v/release/caltechlibrary/irdm-queue-portal.svg?color=b44e88)](https://github.com/caltechlibrary/irdm-queue-portal/releases)
 [![DOI](https://data.caltech.edu/badge/DOI/10.22002/vqsap-3kn19.svg)](https://doi.org/10.22002/vqsap-3kn19)
 
 
