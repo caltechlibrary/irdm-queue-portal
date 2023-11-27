@@ -1,10 +1,10 @@
 {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "description": "Automatic harvester for adding content to an InvenioRDM repository.",
-  "name": "irdm_harvester",
-  "codeRepository": "https://github.com/caltechlibrary/irdm_harvester",
-  "issueTracker": "https://github.com/caltechlibrary/irdm_harvester/issues",
+  "description": "Queue View for an InvenioRDM repository.",
+  "name": "irdm-queue-portal",
+  "codeRepository": "https://github.com/caltechlibrary/irdm-queue-portal",
+  "issueTracker": "https://github.com/caltechlibrary/irdm-queue-portal/issues",
   "license": "https://data.caltech.edu/license",
   "version": "0.0.1",
   "author": [
@@ -21,10 +21,9 @@
     }],
   "developmentStatus": "active",
   "downloadUrl":
-  "https://github.com/caltechlibrary/irdm_harvester/archive/0.0.1.zip",
+  "https://github.com/caltechlibrary/irdm-queue-portal/archive/0.0.1.zip",
   "keywords": [
-    "metadata",
-    "CrossRef",
+    "Queue",
     "InvenioRDM"
   ],
   "maintainer": [
