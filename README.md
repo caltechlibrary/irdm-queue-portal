@@ -36,6 +36,9 @@ it elsewhere and we can make it more flexible. For caltech users, you need to
 have a CaltechAUTHORS access token set in the CTATOK environment variable or as 
 a GitHub repo secret.
 
+This repo also utilizes a 'data' branch to hold the queue data. You might need
+to create this manually the first time you set up the repo.
+
 ## Usage
 
 You can harvest and render the table by [golng

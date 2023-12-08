@@ -49,7 +49,6 @@ jobs:
           python get_queue.py
       - name: Commit results
         run: |
-          git checkout data
           git commit queue.csv -m 'New data harvest' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
       - uses: r-lib/actions/setup-r@v2
