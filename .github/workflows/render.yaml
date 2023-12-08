@@ -27,8 +27,13 @@ jobs:
   render:
     name: Render site
     runs-on: macOS-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          ref: data
       - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
@@ -61,16 +66,6 @@ jobs:
         run: |
           git commit index.html -m 'Re-build index.html' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: data
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
