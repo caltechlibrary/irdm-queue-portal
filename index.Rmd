@@ -7,7 +7,9 @@ output: html_document
 knitr::opts_chunk$set(echo=FALSE, warning=FALSE,message=FALSE, cache=FALSE)
 ```
 
-Current contents in CaltechAUTHORS queue, listed by "@" tags present in the comments. Submissions without "@" tags are listed as "new". This table refreshes every hour during the workday. You can [manually refresh](https://github.com/caltechlibrary/irdm-queue-portal/actions/workflows/render.yaml) the table at GitHub.
+Current contents in CaltechAUTHORS queue, listed by "@" tags present in the
+comments. Submissions without "@" tags are listed as "new". This table
+refreshes every half-hour during the workday. You can [manually refresh](https://github.com/caltechlibrary/irdm-queue-portal/actions/workflows/render.yaml) the table at GitHub.
 
 ```{r data-table}
 library(tidyverse)
@@ -17,7 +19,7 @@ events <- transform(events, request = paste('<a href=https://authors.library.cal
 events %>%
   datatable(escape = FALSE,
             rownames = FALSE, 
-            colnames = c("Tag", "Updated Date","Title", "RDM ID", "Link"),
+            colnames = c("Tag", "Updated Date", "Title", "Publisher", "RDM ID", "Link"),
             class = "cell-border stripe", 
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',

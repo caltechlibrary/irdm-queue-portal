@@ -2,6 +2,7 @@ import os,re,csv
 from ames.harvesters import get_pending_requests
 from ames.harvesters import get_request_comments
 from ames.harvesters import get_request_id_title
+from ames.harvesters import get_publisher
 
 token = os.environ["CTATOK"]
 
@@ -13,6 +14,7 @@ pending = get_pending_requests(token, community)
 
 for p in pending:
     rdm_id,title,updated = get_request_id_title(token, p)
+    publisher = get_publisher(token, rdm_id)
     comments = get_request_comments(token, p)
     tags = []
     for c in comments:
@@ -21,11 +23,11 @@ for p in pending:
     if tags == []:
         tags.append('new')
     for tag in tags:
-        completed.append([tag,updated,title,rdm_id, p])
+        completed.append([tag,updated,title,publisher,rdm_id, p])
 
 with open("queue.csv", "w") as f:
     writer = csv.writer(f)
-    writer.writerow(['tag','updated','title','rdm_id','request'])
+    writer.writerow(['tag','updated','title','publisher','rdm_id','request'])
     for c in completed:
         writer.writerow(c)
 
