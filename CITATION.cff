@@ -8,7 +8,7 @@ authors:
 abstract: Queue View for an InvenioRDM repository.
 repository-code: "https://github.com/caltechlibrary/irdm-queue-portal"
 type: software
-version: 0.0.1
+version: 0.1.0
 license-url: "https://data.caltech.edu/license"
 keywords:
   - Queue
