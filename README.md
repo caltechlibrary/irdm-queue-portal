@@ -32,14 +32,15 @@ flexible.
 
 This portal has only been tested with the CaltechAUTHORS repository and is
 designed for use at Caltech. Please let us know if you're interested in using
-it elsewhere and we can make it more flexible. For caltech users, you need to 
+it elsewhere and we can make it more flexible. For Caltech users, you need to 
 have a CaltechAUTHORS access token set in the CTATOK environment variable or as 
 a GitHub repo secret.
 
-
 ## Usage
 
-You can harvest and render the table by [going
+The GitHub action will run every 30 minutes (should be ready at the top of the hour and half-hour).
+
+You can also manually harvest and render the table by [going
 here](https://github.com/caltechlibrary/irdm-queue-portal/actions/workflows/render.yaml)
 and clicking the "Run Workflow" button.
 
@@ -48,9 +49,13 @@ and clicking the "Run Workflow" button.
 This tool is designed for use at Caltech and has some hardcoded URLs. Let us
 know if you're interested in using it elsewhere.
 
+We assume a queue will have under 100 entries and the queue view will be updated at most every 15 minutes. 
+Because getting the publisher field makes a call to each record, the current approach 
+will be slow on very large queues and will not work for fast update times.
+
 ## Getting help
 
-Please open an issue on GitHub
+Please open an issue on GitHub.
 
 ## Contributing
 
