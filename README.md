@@ -36,12 +36,10 @@ it elsewhere and we can make it more flexible. For caltech users, you need to
 have a CaltechAUTHORS access token set in the CTATOK environment variable or as 
 a GitHub repo secret.
 
-This repo also utilizes a 'data' branch to hold the queue data. You might need
-to create this manually the first time you set up the repo.
 
 ## Usage
 
-You can harvest and render the table by [golng
+You can harvest and render the table by [going
 here](https://github.com/caltechlibrary/irdm-queue-portal/actions/workflows/render.yaml)
 and clicking the "Run Workflow" button.
 
@@ -60,7 +58,7 @@ Pull requests are highly encouraged.
 
 ## License
 
-Software produced by the Caltech Library is Copyright © 2023 California Institute of Technology.  This software is freely distributed under a BSD-style license.  Please see the [LICENSE](LICENSE) file for more information.
+Software produced by the Caltech Library is Copyright © 2024 California Institute of Technology.  This software is freely distributed under a BSD-style license.  Please see the [LICENSE](LICENSE) file for more information.
 
 
 ## Authors and history
