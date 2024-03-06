@@ -28,6 +28,7 @@ for p in pending:
 with open("queue.csv", "w") as f:
     writer = csv.writer(f)
     writer.writerow(['tag','updated','title','publisher','rdm_id','request'])
+    print(f'Writing {len(completed)} rows to queue.csv')
     for c in completed:
         writer.writerow(c)
 
