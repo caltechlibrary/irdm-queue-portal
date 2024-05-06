@@ -56,7 +56,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: 'Add CITATION.cff for release'
-          add: 'CITATION.cff'
+          add: "['CITATION.cff']"
   run_iga:
     name: "Send to ${{needs.get_repository.outputs.server}}"
     runs-on: ubuntu-latest
