@@ -6,7 +6,7 @@
   "codeRepository": "https://github.com/caltechlibrary/irdm-queue-portal",
   "issueTracker": "https://github.com/caltechlibrary/irdm-queue-portal/issues",
   "license": "https://data.caltech.edu/license",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": [
     {
       "@type": "Person",
@@ -21,7 +21,7 @@
     }],
   "developmentStatus": "active",
   "downloadUrl":
-  "https://github.com/caltechlibrary/irdm-queue-portal/archive/0.1.1.zip",
+  "https://github.com/caltechlibrary/irdm-queue-portal/archive/0.1.2.zip",
   "keywords": [
     "Queue",
     "InvenioRDM"
