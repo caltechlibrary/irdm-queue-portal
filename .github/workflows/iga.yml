@@ -45,6 +45,19 @@ on:
         description: "Print debug info in the GitHub log:"
 
 jobs:
+  CodeMeta2CFF:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Convert CFF
+        uses: caltechlibrary/codemeta2cff@main
+      - name: Commit CFF
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Add CITATION.cff for release'
+          add: 'CITATION.cff'
+          branch: 'main'
   run_iga:
     name: "Send to ${{needs.get_repository.outputs.server}}"
     runs-on: ubuntu-latest
