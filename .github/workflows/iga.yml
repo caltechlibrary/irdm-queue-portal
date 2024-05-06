@@ -57,7 +57,6 @@ jobs:
         with:
           message: 'Add CITATION.cff for release'
           add: 'CITATION.cff'
-          branch: 'main'
   run_iga:
     name: "Send to ${{needs.get_repository.outputs.server}}"
     runs-on: ubuntu-latest
