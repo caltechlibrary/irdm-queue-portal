@@ -19,7 +19,7 @@ for p in pending:
     tags = []
     for c in comments:
         if '@' in c:
-            tags = re.findall(r'@(\w+)', c)
+            tags = re.findall(r'\b@(\w+)', c)
     if tags == []:
         tags.append('new')
     for tag in tags:
