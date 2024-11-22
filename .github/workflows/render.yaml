@@ -26,7 +26,7 @@ concurrency:
 jobs:
   render:
     name: Render site
-    runs-on: macOS-latest
+    runs-on: macOS-13
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -46,7 +46,7 @@ jobs:
           CTATOK: ${{ secrets.CTATOK }}
         run: |
           python get_queue.py
-      - uses: caltechlibrary/actions/setup-r@46ffd7d1ecd59df9c75364eb0dcb905b94013ecb
+      - uses: r-lib/actions/setup-r@v2
       - uses: r-lib/actions/setup-pandoc@v2
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
