@@ -46,7 +46,7 @@ jobs:
           CTATOK: ${{ secrets.CTATOK }}
         run: |
           python get_queue.py
-      - uses: caltechlibrary/actions/setup-r@b4e980cfef607d08cdd4707a16131d17878ddbc6
+      - uses: caltechlibrary/actions/setup-r@46ffd7d1ecd59df9c75364eb0dcb905b94013ecb
       - uses: r-lib/actions/setup-pandoc@v2
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
