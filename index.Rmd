@@ -19,7 +19,7 @@ events <- transform(events, request = paste('<a href=https://authors.library.cal
 events %>%
   datatable(escape = FALSE,
             rownames = FALSE, 
-            colnames = c("Tag", "Updated Date", "Title", "Publisher", "RDM ID", "Link"),
+            colnames = c("Tag", "Updated Date", "Title", "Publisher","Groups","RDM ID", "Link"),
             class = "cell-border stripe", 
             filter = list(position = "top"),
             extensions = 'Buttons', options = list(dom = 'Bfrtip',
