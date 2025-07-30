@@ -13,8 +13,9 @@ completed = []
 pending = get_pending_requests(token, community)
 
 for p in pending:
+    print(p)
     rdm_id,title,updated = get_request_id_title(token, p)
-    publisher = get_publisher(token, rdm_id)
+    publisher, groups = get_publisher(token, rdm_id, groups=True)
     comments = get_request_comments(token, p)
     tags = []
     for c in comments:
@@ -23,11 +24,11 @@ for p in pending:
     if tags == []:
         tags.append('new')
     for tag in tags:
-        completed.append([tag,updated,title,publisher,rdm_id, p])
+        completed.append([tag,updated,title,publisher,groups,rdm_id, p])
 
 with open("queue.csv", "w") as f:
     writer = csv.writer(f)
-    writer.writerow(['tag','updated','title','publisher','rdm_id','request'])
+    writer.writerow(['tag','updated','title','publisher','groups','rdm_id','request'])
     print(f'Writing {len(completed)} rows to queue.csv')
     for c in completed:
         writer.writerow(c)
