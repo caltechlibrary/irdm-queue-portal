@@ -1,3 +1,5 @@
+This functionality of this project has been integrated with https://github.com/caltechlibrary/cold and future development work will happen there.
+
 # InvenioRDM Queue View
 
 This repository consists the automation to build a table of content currently
